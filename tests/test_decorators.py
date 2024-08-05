@@ -9,9 +9,7 @@ def test_log(capsys):
     # Проверка корректного выполнения функции
     my_function(1, 2)
     captured = capsys.readouterr()
-    assert (
-        "my_function called with args: (1, 2), kwargs:{}. Result: 3\n" in captured.out
-    )
+    assert "my_function called with args: (1, 2), kwargs:{}. Result: 3\n" in captured.out
     # Проверка ошибки
     try:
         my_function(0, 2)
