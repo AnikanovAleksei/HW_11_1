@@ -11,4 +11,3 @@ def test_convert_to_rub(mock_get):
         "https://api.apilayer.com/exchangerates_data/convert?to=RUB&from=USD&amount=20",
         headers={"apikey": "qxJ5QdBKqbzhzzWC7Zt9zKjARwXvN5FD"},
     )
-

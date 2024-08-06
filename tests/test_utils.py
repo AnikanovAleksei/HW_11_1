@@ -1,13 +1,16 @@
 import pytest
 from src.utils import get_transactions_dictionary, return_transaction_amount_in_rub
 
+
 @pytest.fixture
 def get_path():
     return "../data/operations.json"
 
+
 @pytest.fixture
 def get_wrong_path():
     return "nothing"
+
 
 @pytest.fixture
 def get_bad_file():
