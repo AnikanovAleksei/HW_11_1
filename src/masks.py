@@ -40,24 +40,24 @@ def get_mask_account(mask_account: str) -> str:
 
 
 # Пример использования
-if __name__ == "__main__":
-    card_number = "1234567812345678"
-    masked_card_number = get_mask_card_number(card_number)
-    print(f"Маскированный номер карты: {masked_card_number}")
-
-    account_number = "1234567890123456"
-    masked_account_number = get_mask_account(account_number)
-    print(f"Маскированный номер счета: {masked_account_number}")
-
-    # Примеры с ошибками
-    wrong_card_number = "12345"
-    print(get_mask_card_number(wrong_card_number))
-
-    empty_card_number = ""
-    print(get_mask_card_number(empty_card_number))
-
-
-if __name__ == "__main__":
-    print(get_mask_card_number("8990922113665226"))
-    print(get_mask_card_number(""))
-    print(get_mask_account("73654108430135874305"))
+# if __name__ == "__main__":
+#     card_number = "1234567812345678"
+#     masked_card_number = get_mask_card_number(card_number)
+#     print(f"Маскированный номер карты: {masked_card_number}")
+#
+#     account_number = "1234567890123456"
+#     masked_account_number = get_mask_account(account_number)
+#     print(f"Маскированный номер счета: {masked_account_number}")
+#
+#     # Примеры с ошибками
+#     wrong_card_number = "12345"
+#     print(get_mask_card_number(wrong_card_number))
+#
+#     empty_card_number = ""
+#     print(get_mask_card_number(empty_card_number))
+#
+#
+# if __name__ == "__main__":
+#     print(get_mask_card_number("8990922113665226"))
+#     print(get_mask_card_number(""))
+#     print(get_mask_account("73654108430135874305"))
