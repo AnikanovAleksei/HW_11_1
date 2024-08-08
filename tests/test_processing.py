@@ -12,7 +12,7 @@ def test_filter_by_state_1(test_info_state_1: list[dict[str, object]]) -> None:
     ]
 
 
-def test_filter_by_state_sort(test_info_state_1: list[dict[str, object]]) -> None:
+def test_sort_by_date(test_info_state_1: list[dict[str, object]]) -> None:
     assert sort_by_date(info_state) == [
         {"id": 41428829, "state": "EXECUTED", "date": "2019-07-03T18:35:29.512364"},
         {"id": 615064591, "state": "CANCELED", "date": "2018-10-14T08:21:33.419441"},
