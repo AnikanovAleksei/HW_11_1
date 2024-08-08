@@ -1,4 +1,5 @@
 import pytest
+
 from src.utils import get_transactions_dictionary, return_transaction_amount_in_rub
 
 

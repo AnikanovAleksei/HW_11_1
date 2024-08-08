@@ -1,5 +1,6 @@
-import pandas as pd
 from unittest.mock import patch
+
+import pandas as pd
 
 # Обновленная функция для чтения Excel данных
 from src.xlsx_data_dict import get_xlsx_data_dict

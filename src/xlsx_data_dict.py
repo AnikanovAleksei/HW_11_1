@@ -1,5 +1,6 @@
-import pandas as pd
 from typing import Dict, List
+
+import pandas as pd
 
 
 def get_xlsx_data_dict(file_name: str) -> List[Dict]:

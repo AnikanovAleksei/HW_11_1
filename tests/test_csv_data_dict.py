@@ -1,4 +1,5 @@
-from unittest.mock import patch, mock_open
+from unittest.mock import mock_open, patch
+
 from src.csv_data_dict import get_csv_data_dict
 
 

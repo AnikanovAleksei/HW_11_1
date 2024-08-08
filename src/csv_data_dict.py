@@ -30,3 +30,6 @@ def get_csv_data_dict(file_name: str) -> List[Dict]:
     except Exception as e:
         print(f"An error occurred: {e}")  # Дополнение вывода ошибки в случае сбоя
         return [{}]
+
+
+print(get_csv_data_dict("../data/transactions.csv"))
